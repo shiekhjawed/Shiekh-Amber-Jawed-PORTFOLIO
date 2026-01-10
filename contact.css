@@ -1,0 +1,164 @@
+
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+ body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: conic-gradient(from 0deg, grey, black, gray);
+    color:white;
+    min-height: 100vh;
+ }
+
+ /* HEADER */
+ header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px;
+ }
+
+ .logo{
+    font-size:2.5rem;
+    font-style: italic;
+    color:seagreen;
+    text-transform:uppercase;
+    font-family:'Rubik Moonrocks', cursive;
+ }
+
+ nav ul{
+    display:flex;
+    gap:30px;
+    list-style:none;
+ }
+
+ nav li:hover{
+    background-color: blue;
+    cursor:pointer;
+    padding:5px 10px;
+    border-radius:8px;
+ }
+
+ nav a {
+    text-decoration: none;
+    color:white;
+    font-size:1.25rem;
+    text-transform: capitalize;
+ }
+
+ /* CONTACT CONTAINER */
+ .container {
+    max-width: 700px;
+    margin: 60px auto;
+    padding: 30px;
+    border-radius: 12px;
+    background: rgba(0,0,0,0.4);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+ }
+
+ h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: seagreen;
+ }
+
+ label {
+    display: block;
+    margin: 15px 0 5px;
+    font-size: 1.1rem;
+ }
+
+ input, textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+ }
+
+ textarea {
+    height: 150px;
+    resize: none;
+ }
+
+ button {
+    margin-top: 20px;
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    background: seagreen;
+    border: none;
+    color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+ }
+
+ button:hover {
+    background: #0e6f43;
+ }
+
+ /* SOCIAL ICONS */
+ .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    font-size: 2.5rem;
+    margin-top: 30px;
+ }
+
+ .social-icons i:hover {
+    transform: scale(1.1);
+ }
+ 
+footer {
+    background: conic-gradient(from 0deg, grey,black, gray);
+    color:white;
+    text-align: center;
+    padding:20px;
+    font-size:1.125rem;
+    text-transform:capitalize;
+    margin-bottom: 0;
+} 
+
+ /* RESPONSIVE */
+ @media (max-width:768px){
+    header{
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    nav ul{
+        flex-wrap: wrap;
+        gap: 15px;
+        justify-content: center;
+    }
+
+    .logo{
+        font-size: 2rem;
+    }
+
+    .container{
+        width: 90%;
+        margin-top: 40px;
+    }
+ }
+
+ @media (max-width:480px){
+    nav a {
+        font-size: 1rem;
+    }
+
+    .social-icons {
+        font-size: 2rem;
+        gap: 15px;
+    }
+
+    .logo{
+        font-size: 1.6rem;
+    }
+ }
