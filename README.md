@@ -37,8 +37,7 @@
 
 ## 📄 Resume (ATS Friendly)
 
-- 📌 Resume 1 : https://app.enhancv.com/share/a436f9dd/?utm_medium=growth&utm_campaign=share-resume&utm_source=dynamic
--📌 Resume 2 :https://app.enhancv.com/share/9cebccfc/?utm_medium=growth&utm_campaign=share-resume&utm_source=dynamic
+- 📌 Resume  : https://app.enhancv.com/share/36c5925d/?utm_medium=growth&utm_campaign=share-resume&utm_source=dynamic
 
 
 ### 📫 Contact Me
