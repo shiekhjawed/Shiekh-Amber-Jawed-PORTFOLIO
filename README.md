@@ -18,7 +18,7 @@
 
 ### 🔧 Skills
 <p>
-<img src="https://skillicons.dev/icons?i=html,css,js,jquery,bootstrap,git,github,vercel" />
+<img src="https://skillicons.dev/icons?i=html,css,javascript,jquery,bootstrap,git,github,vercel" />
 </p>
 
 🧩 Other Tools:
